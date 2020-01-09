@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.card:hover {
+  box-shadow: 5px 5px 5px rgb(170, 169, 169);
+}
+.product .overlay {
+  position: absolute;
+  opacity: 0.8;
+  top: 0%;
+  background-color: #09d3ac;
+  width: 100%;
+  height: 80%;
+  display: none;
+}
+
+.product .add {
+  position: absolute;
+  top: 0%;
+  opacity: 0.7;
+  background-color: #09d3ac;
+  width: 100%;
+  height: 80%;
+}
+
+.product:hover .overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 5px 25px;
+  font-size: 20px;
+  color: white;
+}
+.btn:hover {
+  background-color: white;
+  color: #09d3ac;
+}
+.details {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.table {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  background-color: white;
+}
+
+.child {
+  display: inline-block;
+  height: 100;
+  padding: 1%;
+  font-size: 1rem;
+  text-align: center;
+  flex: 1;
+  min-width: 20%;
+}
+
+.tags {
+  display: inline-block;
+  height: 100;
+  padding: 1%;
+  font-size: 20;
+  background: rgb(240, 237, 237);
+  flex: 1;
+  min-width: 20%;
+  border-bottom: 2px solid white;
+}

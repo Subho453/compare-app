@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Cherry",
+        "price": "$1.99",
+        "condition": "Fresh",
+        "desc": "Two Cherries",
+        "image": "/images/Cherry.png",
+        "click": false,
+        "color": "#09d3ac"
+    },
+    {
+        "name": "Orange",
+        "price": "$2.99",
+        "condition": "Frozen",
+        "desc": "Giant Orange",
+        "image": "/images/Orange.png",
+        "click": false,
+        "color": "#ff715b"
+    },
+    {
+        "name": "Nuts",
+        "price": "$1.00",
+        "condition": "Frozen",
+        "desc": "Mixed Nuts",
+        "image": "/images/Nuts.png",
+        "click": false,
+        "color": "#ff715b"
+    },
+    {
+        "name": "Strawberry",
+        "price": "$1.49",
+        "condition": "Fresh",
+        "desc": "Just Strawberry",
+        "image": "/images/Strawberry.png",
+        "click": false,
+        "color": "#09d3ac"
+    }
+]
