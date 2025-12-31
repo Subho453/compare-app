@@ -5,11 +5,11 @@
   "dependencies": {
     "antd": "^3.24.3",
     "bootstrap": "^4.3.1",
-    "express": "^4.17.1",
+    "express": "^4.22.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-redux": "^7.1.1",
-    "react-scripts": "3.2.0",
+    "react-scripts": "5.0.1",
     "redux": "^4.0.4",
     "redux-saga": "^1.1.1"
   },
